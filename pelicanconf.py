@@ -5,6 +5,7 @@ from __future__ import unicode_literals
 AUTHOR = 'Vostbur'
 SITENAME = 'Little things'
 SITEURL = ''
+THEME = 'theme/blue-penguin'
 
 PATH = 'content'
 
