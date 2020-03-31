@@ -8,6 +8,7 @@ SITEURL = ''
 THEME = 'theme/blue-penguin'
 
 PATH = 'content'
+STATIC_PATHS = ['images']
 
 TIMEZONE = 'Europe/Moscow'
 
@@ -34,3 +35,8 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# additional menu items
+MENUITEMS = (
+    ('GitHub', 'https://github.com/Vostbur'),
+)
