@@ -4,6 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Vostbur'
 SITENAME = 'Little things'
+SITESUBTITLE = 'A personal blog.'
 SITEURL = ''
 THEME = 'theme/blue-penguin'
 
@@ -28,8 +29,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('GitHub', 'https://github.com/Vostbur'),)
 
 DEFAULT_PAGINATION = 10
 

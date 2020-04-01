@@ -17,9 +17,10 @@ RELATIVE_URLS = False
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
+DISPLAY_CATEGORIES_ON_MENU = True
 DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-#DISQUS_SITENAME = ""
+DISQUS_SITENAME = "vostbur.github.io"
 #GOOGLE_ANALYTICS = ""
