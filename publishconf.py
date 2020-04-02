@@ -21,5 +21,5 @@ DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
 
-DISQUS_SITENAME = "https-vostbur-github-io"
+# DISQUS_SITENAME = "https-vostbur-github-io"
 #GOOGLE_ANALYTICS = ""
