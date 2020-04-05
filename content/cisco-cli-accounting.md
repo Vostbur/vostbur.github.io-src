@@ -1,4 +1,4 @@
-Title: Логгирование команд выполенных на Cisco с помощью Event Manager
+Title: Логгирование команд на Cisco с помощью Event Manager
 Date: 2020-04-05 17:45
 Tags: network, cisco
 Category: Меморизы
