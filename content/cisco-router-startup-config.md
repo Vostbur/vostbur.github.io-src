@@ -23,6 +23,9 @@ Category: Меморизы
 `R1(config)#no ip http secure-server`  
 `R1(config)#no cdp run`  
   
+Отключить интерпретацию неправильно введенных команд как DNS-запрос  
+`R1(config)#no ip domain lookup`  
+
 Пароль на подключение по консольному порту  
 `R1(config)#line console 0`  
 `R1(config-line)#password cisco`  
@@ -80,13 +83,16 @@ __Настроить доступ по SSH__
 Режим вывод сообщений в консоль, не мешающий вводу команд  
 `R1(config-line)#logging synchronous`  
   
-Тайм-аут до автоматического закрытия SSH-сессии  
+Тайм-аут до автоматического закрытия SSH-сессии, если надо отключить `exec-timeout 0 0`  
 `R1(config-line)#exec-timeout 60 0`  
 `R1(config-line)#exit`  
 
-Оставить возможность доступа по telnet, если не надо, эту секцию пропустить  
+Оставить возможность доступа по telnet. Если не надо, эту секцию пропустить  
 `R1(config)#line vty 0 4`  
 `R1(config-line)#transport input telnet`  
+Или  
+`R1(config-line)#transport input all` 
+
 `R1(config-line)#exit`  
   
 Сохранить конфигурацию  
