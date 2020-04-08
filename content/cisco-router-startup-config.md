@@ -80,7 +80,7 @@ __Настроить доступ по SSH__
 `R1(config)#line vty 0 903`  
 `R1(config-line)#transport input ssh`  
 Если нужен и telnet  
-`R1(config-line)#transport input ssh telnet` 
+`R1(config-line)#transport input ssh telnet`  
 Или  
 `R1(config-line)#transport input all`   
   
